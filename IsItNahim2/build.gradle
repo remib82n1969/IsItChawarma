@@ -7,3 +7,21 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+android {
+    // Other settings
+
+    // Specify tflite file should not be compressed for the app apk
+    aaptOptions {
+        noCompress "tflite"
+    }
+}
+
+dependencies {
+    // Other dependencies
+
+    // Import the Task Vision Library dependency (NNAPI is included)
+    implementation 'org.tensorflow:tensorflow-lite-task-vision'
+    // Import the GPU delegate plugin Library for GPU inference
+    implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin'
+}
