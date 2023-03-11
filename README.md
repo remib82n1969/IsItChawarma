@@ -11,5 +11,8 @@
 </p>
 <b>Le Dataset :</b> 
 - Constitué de deux classes :
-    - Nahim 
-    - Not Nahim 
+<ol>
+  <li>Nahim</li>
+  <li>Not Nahim</li>
+</ol>
+
