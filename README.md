@@ -1,4 +1,4 @@
-# Is is Nahim ?
+# Is it Nahim ?
 ## Groupe :
 - Tanguy Dessoly 
 - Aya Najare 
