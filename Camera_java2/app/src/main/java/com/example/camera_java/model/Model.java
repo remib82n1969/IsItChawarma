@@ -1,19 +1,11 @@
 package com.example.camera_java.model;
 
-import com.google.ar.core.Session;
-
 import org.tensorflow.SavedModelBundle;
 import org.tensorflow.Session;
 import org.tensorflow.Tensor;
 
+
 import java.util.Arrays;
-/* imported in build.gradle but not working :
-dependencies{
-    implementation 'org.tensorflow:tensorflow:2.8.0'
-    implementation 'org.tensorflow:tensorflow-core:2.8.0'
-    implementation 'org.tensorflow:tensorflow-hub:0.9.0'
-}
-* */
 public class Model {
     public static void predict(String[] args) {
         // Load the model
